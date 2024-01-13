@@ -1,0 +1,155 @@
+@import './../../styles/contants.scss';
+
+.wrapper {
+    @media (max-width: $sm) {
+        height: 35rem !important;
+    }
+    @media (max-width: $lg) {
+        height: 40rem;
+    }
+    overflow: hidden;
+    color: white;
+}
+
+.container {
+    @media (max-width: $sm) {
+        display: flex;
+        flex-direction: column;
+    }
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+    #particles canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    }
+
+    .upperElements {
+        @media (max-width: $sm) {
+            justify-content: center;
+            text-align: center;
+            gap: 2rem;
+            margin: 3rem 0 0 0;
+
+        }
+        margin-top: 4rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .primaryT {
+            text-align: center;
+            @media (max-width: $sm) {
+               //padding-right: 4rem; 
+               margin: 0;
+               height: 8rem;
+            }
+        }
+        .secondaryT {
+            margin-top: 3rem;
+            text-align: center;
+            color: #a9a9a9;
+            @media (max-width: $sm) {
+                //padding-right: 4rem; 
+                margin: 0;
+             }
+        }
+        .iconSection {
+            @media (max-width: $sm) {
+                display: flex;
+                position: relative;
+                top: 13rem;
+                right: 25rem;
+                margin: 0;
+            }
+            display: flex;
+            margin-right: 2.5rem;
+            text-align: center;
+            a {
+                padding: 2rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .lowerElements {
+        @media (max-width: $sm), (max-width: $md) {
+            margin-top: 4rem;
+            gap: 2rem;
+            justify-content: center;
+        }
+        margin-top: 12rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .experience {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            >:nth-child(2) {
+                line-height: 25px;
+            }
+        }
+
+        .certificate {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .person {
+        @media (max-width: $sm), (max-width: $md) {
+            position: relative;
+            left: 0;
+            background-size: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: bottom;
+        }
+        margin: 0 0 0 12rem !important;
+        flex: 1;
+        bottom: -2rem;
+        margin: auto;
+        background-image: url('../splash.png');
+        background-repeat: no-repeat;
+        background-size: 23rem;
+        left: 33%;
+
+        img {
+            @media (max-width: $sm) {
+                width: 23rem;
+                margin-left: 15rem;
+            }
+            margin-bottom: -5px;
+        }
+    }
+}
+
+.email {
+    height: 3.5rem;
+    width: 12rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    button {
+        height: 3.5rem;
+    width: 12rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
