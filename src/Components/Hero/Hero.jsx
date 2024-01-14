@@ -4,8 +4,23 @@ import {motion} from 'framer-motion';
 import {AiFillInstagram, AiFillLinkedin, AiFillGithub, AiOutlineMail} from "react-icons/ai";
 import { staggerContainer, fadeIn, slideIn } from '../../utils/motion';
 import { ParticlesBackground } from '../Particles/particles';
+import Resume from '../../assets/RESUME_SWAPNIL.pdf';
 
 const Hero = () => {
+
+    const handleDownload = () => {
+
+    const link = document.createElement('a');
+    link.href = Resume;
+    link.download = 'Resume_SWAPNIL.pdf';
+
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+    };
+    
+
   return (
     <section className={`paddings ${css.wrapper}`}>
         <motion.div
@@ -68,8 +83,9 @@ const Hero = () => {
                 <div className={css.email} >
                 <motion.button 
                 variants={fadeIn("right", "tween", 0.4, 1)}
+                onClick={handleDownload}
                 >
-                    <a href="mailto:sahusawapnil@gmail.com">My Resume</a>
+                    <a>My Resume</a>
                 </motion.button>
                 </div>
         </motion.div>
