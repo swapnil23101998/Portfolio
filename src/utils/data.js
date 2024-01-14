@@ -35,7 +35,7 @@ export const workExp = [
     role: "Member of Technical Staff",
     detailMobile: "Worked on Oracle Content and Management project for enhancing its accessibility and performance, making it more user friendly and advanced.",
     detail:
-      ["Worked on Oracle Content and Management project for making it more User friendly and advanced.", "Added various features like Ranking Policy, Starter Edition using HTML, CSS, Javascript and Backbone framework.", "Replaced entire icon of Oracle content and Management website with Oracle iamges for supporting different high contrast mode.", "Enhanced accessibility of this product for visually impaired."]
+      ["Successfully revamped the visual experience of the OCM product by replacing existing icons with Oracle images. This initiative aimed at ensuring optimal support for various high contrast modes.", "Undertook a significant performance improvement initiative for the Oracle Cloud Management (OCM) platform. Replaced the usage of jQuery with more efficient jQuery-UI-Widgets.", "Implemented a text-to-speech feature across all screens, thereby enhancing the overall accessibility of the OCM product. This effort was crucial in providing a seamless experience for users with diverse needs."]
   },
   {
     place: "Paytm for Business",
@@ -43,7 +43,7 @@ export const workExp = [
     role: "Software Developer",
     detailMobile: "Working on Merchant UMP Onboarding and Merchant Subscriptions Project of Paytm.",
     detail:
-      ["Working on enhancing the user experience of Merchant UMP Onboarding at Paytm.", "Worked on different Merchant onboarding journeys like Deals-Onboarding,  Store-Cashback,  Answering-Machine for making it easier for merchants to handle problems.", "Handling and managing the complete Merchant Subscriptions Project of Paytm written on Vue.js framework.", "Worked on writing jest test cases for UMP Onboarding project and did complete setup of subscription test cases for smooth development work."]
+      ["Designed and implemented an innovative Answering Machine for merchants at Paytm, enabling merchants to address concerns and gain clarity regarding their settlements and devices.", "Solely managed and oversaw the entire Subscriptions project of Paytm from the frontend which tracks entire subscription history of merchants.", "Subscription also contributed significantly to the enhancement of my in-depth knowledge and proficiency in Vue.js", "Orchestrated the development and implementation of impactful onboarding journeys, including Store Cashback and Deals Onboarding, successfully increased merchant engagement."]
   },
   // {
   //   place: "Self Employed",

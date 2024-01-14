@@ -38,7 +38,7 @@ const Header = () => {
                 className={`flexCenter ${css.menu}`}>
                     <li onClick={() => setMenuOpened(false)}><a href="#experties">Skills</a></li>
                     <li onClick={() => setMenuOpened(false)}><a href="#works">Experience</a></li>
-                    <li onClick={() => setMenuOpened(false)}><a href="#travel">Travel Section</a></li>
+                    {/* <li onClick={() => setMenuOpened(false)}><a href="#travel">Travel Section</a></li> */}
                     <li onClick={() => setMenuOpened(false)}><a href="#footer">Contact</a></li>
                     <li className={`flexCenter ${css.phone}`} onClick={() => setMenuOpened(false)}>
                         <a href="tel:9754380937"><p>9754380937</p></a>

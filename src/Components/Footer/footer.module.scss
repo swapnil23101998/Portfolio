@@ -14,6 +14,7 @@
             @media (max-width: $sm) {
                 width: 20rem;
                 text-align: center;
+                margin-right: 0;
             }
             display: flex;
             flex-direction: column;
@@ -72,8 +73,8 @@
             }
             .iconSection {
                 @media (max-width: $sm) {
-                    margin-left: 5rem;
-                    margin-right: 13rem;
+                    // margin-left: 5rem;
+                    // margin-right: 13rem;
                 }
                 display: flex;
                 gap: 2rem;
@@ -85,7 +86,7 @@
         .copyright {
                 padding-top: 24px;
                 @media (max-width: $sm) {
-                    margin-right: 7rem;
+                    margin-right: 0;
                     margin-top: 2rem;
                     width: 16rem;
                 }

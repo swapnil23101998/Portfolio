@@ -19,16 +19,17 @@ const Footer = () => {
             MobileNumber: number
         };
 
-        console.log(data);
-
         axios.post('https://sheet.best/api/sheets/520f0644-b07c-44b6-9837-6b33d6a0660a', data).then((resp) => {
-            console.log(resp);
             setEmail('');
             setNumber('');
         }).catch((err) => {
             console.log(err);
         });
 
+    }
+
+    const handleRedirection = (url) => {
+        window.open(url);
     }
 
     return (
@@ -61,9 +62,9 @@ const Footer = () => {
                         </form>
                     </div> */}
                     <div className={`${css.iconSection}`}>
-                        <a href="https://www.instgram.com"><AiFillInstagram color="white" size={40} /></a>
-                        <a><AiFillLinkedin color="white" size={40} /></a>
-                        <a><AiFillGithub color="white" size={40} /></a>
+                        <a onClick={() => handleRedirection('https://www.instagram.com/that_silly_developer')}><AiFillInstagram color="white" size={40} /></a>
+                        <a onClick={() => handleRedirection('https://www.linkedin.com/in/swapnilsahu1023')}><AiFillLinkedin color="white" size={40} /></a>
+                        <a onClick={() => handleRedirection('https://github.com/swapnil23101998')}><AiFillGithub color="white" size={40} /></a>
                         <a href="mailto:sahusawapnil@gmail.com"><AiOutlineMail color='white' size={40} /></a>
                     </div>
                 </div>

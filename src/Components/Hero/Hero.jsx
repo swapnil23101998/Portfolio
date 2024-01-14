@@ -25,11 +25,11 @@ const Hero = () => {
                 <motion.span
                 variants={fadeIn("left", "tween", 0.4, 1)}
                 className={`secondaryText ${css.secondaryT}`}>
-                    A passionate Frontend Developer ready to turn digital dreams 
+                    As a dedicated Frontend Developer, I transform digital visions into compelling
                     <br/>
-                    into captivating realities 👨‍💻✨. Also, I love travelling
+                    realities through meticulous coding and a passion for crafting seamless,
                     <br/> 
-                    and exploring new places.
+                    user-centric web experiences.
                 </motion.span>
                 {/* <div className={`${css.iconSection}`}>
                     <a href="https://www.instgram.com"><AiFillInstagram color="white" size={40} /></a>
