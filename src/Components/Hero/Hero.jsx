@@ -1,8 +1,7 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import css from './Hero.module.scss';
 import {motion} from 'framer-motion';
-import {AiFillInstagram, AiFillLinkedin, AiFillGithub, AiOutlineMail} from "react-icons/ai";
-import { staggerContainer, fadeIn, slideIn } from '../../utils/motion';
+import { staggerContainer, fadeIn } from '../../utils/motion';
 import { ParticlesBackground } from '../Particles/particles';
 import Resume from '../../assets/RESUME_SWAPNIL.pdf';
 

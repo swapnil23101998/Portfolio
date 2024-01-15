@@ -2,7 +2,7 @@ import React from "react";
 import css from './works.module.scss';
 import {motion} from 'framer-motion';
 import { workExp } from "../../utils/data";
-import { fadeIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
+import { staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
 
 const Works = () => {
     return (

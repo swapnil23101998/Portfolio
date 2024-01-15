@@ -1,6 +1,6 @@
 import React from "react";
 import {motion} from 'framer-motion';
-import { fadeIn, staggerContainer } from "../../utils/motion";
+import { staggerContainer } from "../../utils/motion";
 import {AiFillInstagram, AiFillLinkedin, AiFillGithub, AiOutlineMail} from "react-icons/ai";
 import Typewriter from 'typewriter-effect';
 import css from './footer.module.scss';
